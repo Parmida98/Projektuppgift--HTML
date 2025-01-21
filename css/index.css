@@ -1,7 +1,23 @@
 body {
-  background-image: url("/img/pastelbgjpg.jpg");
+  background-image: url("/img/hembild.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
+
+main {
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+}
+
+p{
+  font-size: 20px;
+}
+
+h2{
+  font-family: cursive;
+}
+
+

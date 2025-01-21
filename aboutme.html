@@ -6,32 +6,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Om mig</title>
   <link rel="stylesheet" href="css/aboutme.css">
-  <script src="app.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js"></script>
 </head>
 <body>
 <header>
-  <h1>Parmida Ahmadi</h1>
+  <img src="/img/panda.png" alt="Bild på banda" style="width: 60px;height: 60px">
+  <nav>
+    <div class="topnav" id="myMenu">
+      <a href="index.html">Hem</a>
+      <a href="competence.html">Teknisk Kompetens</a>
+      <a href="aboutme.html">Om mig</a>
+      <a href="contact.html">Kontakt</a>
+      <a href="cv.html">CV</a>
+      <a href="javascript:void(0);" class="icon" onclick="menuFunction()">
+        <div class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </a>
+    </div>
+  </nav>
 </header>
-
 <main>
-  <section>
-    <nav>
-      <ul>
-        <li><a href="competence.html">Teknisk Kompetens</a></li>
-        <li><a href="aboutme.html">Om mig</a></li>
-        <li><a href="contact.html">Kontakt</a></li>
-      </ul>
-    </nav>
     <h3>Om mig</h3>
-    <article>
+    <section>
       <p>Född 1998 i Stockholm till iranska föräldrar. Började studera programmering
       för att det verkar intressant, kul och bra karriär.</p>
-    </article>
-  </section>
-  <img src="/img/bildjag.png" alt="Profilbild på person" style="width:300px;height:300px ">
+    </section>
+  <img src="/img/bildjag.PNG"
+       srcset="/img/bildjag1x.png 500w, /img/bildjag1x.png 1230w"
+       sizes="(max-width: 800px) 700px, 100vw"
+       alt="Porträtt bild på person"
+       class="bild-jag">
 </main>
 <footer>
-  <p>Parmida Ahmadi since 1998</p>
+  Parmida Ahmadi since 1998
 </footer>
 </body>
 </html>
